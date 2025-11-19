@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Mein PDF als Website</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100vh; /* gesamte sichtbare Höhe */
+    }
+  </style>
+</head>
+<body>
+  <iframe src="Regelwerk_Dezentrale_Koordination.pdf"></iframe>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Mein PDF als Website</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    object {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <object data="Regelwerk_Dezentrale_Koordination.pdf" type="application/pdf">
+    <p>
+      Dein Browser kann das PDF nicht direkt anzeigen.
+      <a href="Regelwerk_Dezentrale_Koordination.pdf">Hier klicken, um das PDF herunterzuladen.</a>
+    </p>
+  </object>
+</body>
+</html>
